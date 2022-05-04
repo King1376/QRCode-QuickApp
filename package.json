@@ -30,7 +30,7 @@
     "lint": "standard",
     "pretest": "npm run lint",
     "test": "node --throw-deprecation test.js",
-    "build": "rollup -c --sourcemap", 
+    "build": "rollup -c", 
     "dev": "rollup -c -w",
     "prepublish": "npm run build",
     "browser": "node examples/clientsideserver.js"
