@@ -36,7 +36,7 @@ QRCode.toCanvas(dom, "http://www.apple.com", {
   border: {
       width: 10,
       color: "yellowgreen",
-      style: 'solid',
+      radius: 15,
   },
   color: {
     dark: "#7CCD7C", // 二维码背景颜色
